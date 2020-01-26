@@ -1,0 +1,5 @@
+let geometry = new THREE.SphereGeometry(0.005, 5, 5)
+let material = new THREE.MeshLambertMaterial({color: 0xffff00})
+let sphere = new THREE.Mesh(geometry, material)
+sphere.position.set(x, y, z)
+scene.add(sphere)

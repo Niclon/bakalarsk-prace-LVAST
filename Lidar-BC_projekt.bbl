@@ -1,0 +1,383 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{velodyne_laser_control_window}{misc}{}
+    \verb{url}
+    \verb http://www.hypack.com/File Library/Resource Library/Technical Notes/0
+    \verb 1_2018/Velodyne-Laser-Control-Window-in-HYSWEEP-Survey.pdf
+    \endverb
+    \field{journaltitle}{Velodyne Laser Control Window in HYSWEEP SURVEY}
+  \endentry
+
+  \entry{packet}{misc}{}
+    \list{publisher}{1}{%
+      {Velodyne Lidar}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{6}
+    \field{sortinithash}{6}
+    \field{title}{63-9276 Rev B VLP-16 Application Note - Packet Structure \&
+  Timing Definition}
+    \verb{url}
+    \verb https://velodynelidar.com/docs/notes/63-9276%20Rev%20A%20VLP-16%20App
+    \verb lication%20Note%20-%20Packet%20Structure%20%20Timing%20Definition_Loc
+    \verb ked.pdf
+    \endverb
+    \field{journaltitle}{63-9276 Rev B VLP-16 Application Note - Packet
+  Structure \& Timing Definition}
+  \endentry
+
+  \entry{learnwebgl}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{8}
+    \field{sortinithash}{8}
+    \field{title}{8.3 - Perspective Projections}
+    \verb{url}
+    \verb http://learnwebgl.brown37.net/08_projections/projections_perspective.
+    \verb html
+    \endverb
+    \field{journaltitle}{LearnWebGL}
+  \endentry
+
+  \entry{npm-documentation}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{About npm}
+    \verb{url}
+    \verb https://docs.npmjs.com/about-npm/
+    \endverb
+    \field{journaltitle}{About npm | npm Documentation}
+  \endentry
+
+  \entry{acarlon}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Acarlon},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Bark of the byte}
+    \verb{url}
+    \verb http://barkofthebyte.azurewebsites.net/post/2014/05/05/three-js-proje
+    \verb cting-mouse-clicks-to-a-3d-scene-how-to-do-it-and-how-it-works
+    \endverb
+    \field{journaltitle}{Three.js projecting mouse clicks to a 3D scene - how
+  to do it and how it works}
+  \endentry
+
+  \entry{gttingkgrss}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Gotting KG}
+    \verb{url}
+    \verb https://www.goetting-agv.com/components/vlp-16-puck
+    \endverb
+    \field{journaltitle}{Gtting KG RSS}
+  \endentry
+
+  \entry{gupta}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=GA}{%
+         family={Gupta},
+         familyi={G\bibinitperiod},
+         given={Ayush},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GA1}
+    \strng{fullhash}{GA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{HTML Web Component using Plain JavaScript}
+    \verb{url}
+    \verb https://www.codementor.io/ayushgupta/vanilla-js-web-components-chguq8
+    \verb goz
+    \endverb
+    \field{journaltitle}{Codementor}
+  \endentry
+
+  \entry{heremaps_2018}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=H}{%
+         family={Heremaps},
+         familyi={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{H1}
+    \strng{fullhash}{H1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{heremaps/pptk}
+    \verb{url}
+    \verb https://github.com/heremaps/pptk
+    \endverb
+    \field{journaltitle}{GitHub}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{higgins_2018}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=HS}{%
+         family={Higgins},
+         familyi={H\bibinitperiod},
+         given={Sean},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HS1}
+    \strng{fullhash}{HS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Velodyne cuts VLP-16 lidar price to \$4k}
+    \verb{url}
+    \verb https://www.spar3d.com/news/lidar/velodyne-cuts-vlp-16-lidar-price-4k
+    \verb /
+    \endverb
+    \field{journaltitle}{SPAR 3D}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{a-frame}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{HTML \& Primitives – A-Frame}
+    \verb{url}
+    \verb https://aframe.io/docs/0.9.0/introduction/html-and-primitives.html#si
+    \verb debar
+    \endverb
+    \field{journaltitle}{A-Frame}
+  \endentry
+
+  \entry{velodyne_lidar}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=LV}{%
+         family={Lidar},
+         familyi={L\bibinitperiod},
+         given={Velodyne},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LV1}
+    \strng{fullhash}{LV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{Velodyne LiDAR PUCK}
+    \verb{url}
+    \verb https://www.amtechs.co.jp/product/VLP-16-Puck.pdf
+    \endverb
+    \field{journaltitle}{Velodyne LiDAR PUCK}
+  \endentry
+
+  \entry{shearer12345_splashpage}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{Lincoln Lectures On Graphics - 09}
+    \verb{url}
+    \verb https://shearer12345.github.io/graphics/lincolnLecture09.html#/perspe
+    \verb ctive-projection-diagram
+    \endverb
+    \field{journaltitle}{Shearer12345 splashpage}
+  \endentry
+
+  \entry{miller_2019}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=MJ}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {JASON Format}%
+    }
+    \strng{namehash}{MJ1}
+    \strng{fullhash}{MJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{WTF is JSX}
+    \verb{url}
+    \verb https://jasonformat.com/wtf-is-jsx/
+    \endverb
+    \field{journaltitle}{JASON Format}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{oyom_oyom_2017}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=OAN}{%
+         family={Oyom},
+         familyi={O\bibinitperiod},
+         given={Ada\bibnamedelima Nduka},
+         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=OAN}{%
+         family={Oyom},
+         familyi={O\bibinitperiod},
+         given={Ada\bibnamedelima Nduka},
+         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {She Code Africa}%
+    }
+    \strng{namehash}{OANOAN1}
+    \strng{fullhash}{OANOAN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Understanding the MVC pattern in Django}
+    \verb{url}
+    \verb https://medium.com/shecodeafrica/understanding-the-mvc-pattern-in-dja
+    \verb ngo-edda05b9f43f
+    \endverb
+    \field{journaltitle}{Medium}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{react}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{React A JavaScript library for building user interfaces}
+    \verb{url}
+    \verb https://reactjs.org/
+    \endverb
+    \field{journaltitle}{A JavaScript library for building user interfaces}
+  \endentry
+
+  \entry{scratchapixel_2014}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={Scratchapixel},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{url}
+    \verb https://www.scratchapixel.com/lessons/3d-basic-rendering/rendering-3d
+    \verb -scene-overview/perspective-projection
+    \endverb
+    \field{journaltitle}{Rendering an Image of a 3D Scene: an Overview
+  (Perspective Projection)}
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{scratchapixel_20141}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={Scratchapixel},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{url}
+    \verb https://www.scratchapixel.com/lessons/3d-basic-rendering/rendering-3d
+    \verb -scene-overview/visibility-problem
+    \endverb
+    \field{journaltitle}{Rendering an Image of a 3D Scene: an Overview (The
+  Visibility Problem)}
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{sojka_2003}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SE}{%
+         family={Sojka},
+         familyi={S\bibinitperiod},
+         given={Eduard},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Vysoka skola banska - Technicka univerzita, Fakulta elektrotechniky a
+  informatiky}%
+    }
+    \strng{namehash}{SE1}
+    \strng{fullhash}{SE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Pocítacová grafika II: pruvodce studiem}
+    \verb{url}
+    \verb http//mrl.cs.vsb.cz//people/sojka/pg/pocitacova_grafikaII.pdf
+    \endverb
+    \field{year}{2003}
+  \endentry
+
+  \entry{three.js-documentation}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{note}{[Cit. 26.3.2019]}
+    \field{title}{three.js docs}
+    \verb{url}
+    \verb https://threejs.org/docs/#api/en/geometries/SphereGeometry
+    \endverb
+    \field{journaltitle}{three.js documentation}
+  \endentry
+
+  \entry{django}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{title}{URL dispatcher}
+    \verb{url}
+    \verb https://docs.djangoproject.com/en/2.2/topics/http/urls/
+    \endverb
+    \field{journaltitle}{Django}
+  \endentry
+\enddatalist
+\endinput
