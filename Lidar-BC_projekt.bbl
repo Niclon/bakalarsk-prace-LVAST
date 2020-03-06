@@ -169,6 +169,34 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{hristozov_2019}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=HK}{%
+         family={Hristozov},
+         familyi={H\bibinitperiod},
+         given={Krasimir},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Okta Inc.}%
+    }
+    \strng{namehash}{HK1}
+    \strng{fullhash}{HK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{MySQL vs PostgreSQL -- Choose the Right Database for Your
+  Project}
+    \verb{url}
+    \verb https://developer.okta.com/blog/2019/07/19/mysql-vs-postgres
+    \endverb
+    \field{journaltitle}{Okta Developer}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{a-frame}{misc}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{H}
@@ -367,6 +395,18 @@
     \verb https://threejs.org/docs/#api/en/geometries/SphereGeometry
     \endverb
     \field{journaltitle}{three.js documentation}
+  \endentry
+
+  \entry{tutorial3matrices}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Tutorial 3 : Matrices}
+    \verb{url}
+    \verb http://www.opengl-tutorial.org/beginners-tutorials/tutorial-3-matrice
+    \verb s
+    \endverb
+    \field{journaltitle}{Tutorial 3 : Matrices}
   \endentry
 
   \entry{django}{misc}{}

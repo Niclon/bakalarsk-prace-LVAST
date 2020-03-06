@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=Lidar-BC_projekt.tex
 
 [Frame0_View0,0]
-TopLine=911
-Cursor=79312
+TopLine=379
+Cursor=27701
 
 [SessionInfo]
 FrameCount=1

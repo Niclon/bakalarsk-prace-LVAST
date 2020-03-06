@@ -9,7 +9,7 @@ try:
         data = {}
         for i in range(0, cloudinfo.GetNumberOfPoints()):
             data[i] = points.GetPoint(i)
-        path = 'C:\\Users\\MSI\\PycharmProjects\\bc\\datastorage\\data-standing'
+        path = 'C:\\Dev\\Lidar\\RawData\\data-standing'
         fileName = "\\LidarData_" + str(fileIndex) + ".json"
         with open(path + fileName, 'w') as outfile:
             json.dump(data, outfile)

@@ -128,20 +128,19 @@ konzultace a odbornou pomoc. Dále bych chtěl poděkovat všem, kteří mi s pr
 \CooperatingPersonsDeclarationImageFile{Figures/Prohlaseni2.jpg}
 
 %todo create abstract
-\CzechAbstract{Tato bakalářská práce se zabývá implementací nástroje pro označování objektů a obrazových dat ve webovém prostředí za pomoci knihovny React. Označená data se stanou vstupem pro budoucí analýzu.}
+\CzechAbstract{Tato bakalářská práce se zabývá implementací nástroje pro označování objektů a obrazových dat ve webovém prostředí. Označená data se stanou vstupem pro budoucí analýzu.}
 
-\CzechKeywords{React, LIDAR, WebGL, bakalářská práce}
+\CzechKeywords{LIDAR, WebGL, bakalářská práce}
 
-\EnglishAbstract{This bachelor thesis deals with implementation of tool for object selection and data visualization in web browser with using of React library. Selected data will become input data for future analyzation.}
+\EnglishAbstract{This bachelor thesis deals with implementation of tool for object selection and data visualization in web browser. Selected data will become input data for future analyzation.}
 
-\EnglishKeywords{React, LIDAR, WebGL, bachelor thesis}
+\EnglishKeywords{LIDAR, WebGL, bachelor thesis}
 
 \AddAcronym{LIDAR}{Light Detection And Ranging}
 \AddAcronym{WebGL}{Web Graphics Library}
 \AddAcronym{OpenGL}{Open Graphics Library}
 \AddAcronym{HTML}{Hypertext Markup Language}
 \AddAcronym{NPM}{Node.js package manager}
-\AddAcronym{JSX}{JavaScript eXtension}
 \AddAcronym{XML}{Extensible Markup Language}
 \AddAcronym{XHR}{XML Http Request}
 \AddAcronym{HTTP}{Hypertext Transfer Protocol}
@@ -288,25 +287,16 @@ Tento script spouštíme v Python konzoli programu VeloView po načtení \texttt
 
 
 \section{Vizualizace}
-Tato část je určena vizualizaci. V této kapitole si ukážeme, jak jsme postupovali při vývoji systému. Od procesu výběru technologií a frameworků až po principy vykreslování. Ze zadání je zřejmé, že vizualizace dat musí probíhat v prohlížeči na straně uživatele a musí být zobrazená ve 3D. V serverové části budeme mít možnost si uložit námi vybraná data popřípadě obrázky. 
-\subsection{Výběr technologií}
-Na straně uživatele používáme programovací jazyk JavaScript. K těmto účelům bylo vytvořené JavaScriptové rozhraní pro použití WebGL, které využívá rozhraní OpenGL. OpenGL je abstraktní rozhraní pro práci s grafikou. Implementace OpenGL jsou vytvořeny pro všechny platformy a naprogramovány na rychlejších jazycích, pracují přímo s grafickou kartou pro vysokou výpočetní rychlost. Knihovna, kterou jsme si vybrali je Three.js. Three.js je knihovna, která detekuje verzi prohlížeče a použije nejnovější technologie a nejnovější implementace JavaScriptu, které jsou prohlížečem možné použít. Hlavními důvody, proč jsme použili tuto 3D knihovnu byla její rozsáhlá a detailně zpracována dokumentace. 
+Tato část je určena vizualizaci. V této kapitole si ukážeme, jak jsme postupovali při vývoji systému. Od procesu výběru technologií a frameworků až po principy vykreslování. Ze zadání je zřejmé, že vizualizace dat musí probíhat v prohlížeči na straně uživatele a musí být zobrazená ve 3D. V serverové části budeme mít možnost si uložit námi vybraná data popřípadě obrázky.
+
+\subsection{Výběr technologií} 
+Na straně uživatele používáme programovací jazyk JavaScript. K těmto účelům bylo vytvořené JavaScriptové rozhraní pro použití WebGL, které využívá rozhraní OpenGL. OpenGL je abstraktní rozhraní pro práci s grafikou. Implementace OpenGL jsou vytvořeny pro všechny platformy a naprogramovány na rychlejších jazycích, pracují přímo s grafickou kartou pro vysokou výpočetní rychlost. Knihovna, kterou jsme si vybrali je Three.js. Three.js je knihovna, která detekuje verzi prohlížeče a použije nejnovější technologie a nejnovější implementace JavaScriptu, které jsou prohlížečem možné použít. Hlavními důvody, proč jsme použili tuto 3D knihovnu, byla její rozsáhlá a detailně zpracovaná dokumentace. 
+V serverové části jsme se rozhodli použít programovací jazyk Java. Bude mít za úkol posílat body mraku bodů na stranu uživatele a zpracovat, nebo uložit data odeslaná uživatelem. Pro vytvoření webové aplikace jsme využili knihovnu \texttt{Spring Boot}. Dalším rozšířením je knihovna Thymeleaf  pro dynamické renderování \texttt{HTML} na straně serveru. Již zmíněné technologie jsou nedílnou součástí praktické části. Jako bundler statických prvků a minifikaci JavaScriptu jsme použili nástroj zvaný \texttt{Webpack}. Jeho výhodou je jednoduchá konfigurace a používání. Bundler nám spojí všechny potřebné použité javascript soubory do jednoho zminifikovaného souboru. Pro ukládání dat použijeme objektově-relační databázový server PostgresSQL, který je zdarma a je připravený na vysoký počet požadavků.
+ 
+\subsection{Alternativní knihovny} Je mnoho alternativních knihoven, které jsme mohli použít. Ukážeme si pár z nich. Za zmínku stojí Babylon.js. Tato knihovna se používá na vytváření her v prohlížeči. Kód z Babylon.js je možné exportovat do Unity 3D herního enginu. Zaměřuje se tedy více na kolize, události, rendering a vyhlazování. Oba dva jsou v tuto chvíli nejlepšími 3D JavaScriptovými knihovnami s open source licencí. Alternativou Webpack bundleru je \texttt{Rollup}. Konfigurací se velmi podobá \texttt{Webpack} bundleru. Je jen o zanedbatelnou dobu pomalejší. Na straně serveru jsme mohli použít mnoho různých alternativ, protože požadavek od serveru je odpovídat a přijímat žádosti o data a posílat je uživateli na jeho rozhraní, přijímat označená data z uživatelského rozhraní a ukládat je na straně serveru k budoucí analýze. Další možností byla webová aplikační knihovna \texttt{Django} s programovacím jazykem Python. Tato kombinace je velmi dobrá pro rychlý vývoj jednoduchých aplikací. Další alternativou bylo PHP s některým z frameworků, jako je například Laravel. Neměli jsme žádné specifické požadavky od systému, ve kterých bychom mohli říct, že využijeme určitý programovací jazyk, protože by byl pro tuto problematiku lepší. Požadavky od naší serverové části by efektivně zvládlo mnoho jazyků. Nelze tedy z našich požadavků vybrat jen jeden jazyk a říct, že pro nás bude nejlepší. Pro databázový server jsme měli mnoho možností. Jedním z mnoha je \texttt{MySQL}. Tento databázový server je velmi rychlý i ve velkém množství čtecích operací. Je také úspornější na místo v paměti, ale za cenu problému s konkurencí. Pro náš systém jsme potřebovali databázový systém, který bude efektivně číst a psát větší množství dat.
 
 
-% zde byli provedeny změny
-V serverové části jsme se rozhodli použít programovací jazyk Java. Bude mít za úkol posílat body mraku bodů na stranu uživatele a zpracovat, nebo uložit data odeslané uživatelem. Pro vytvoření webové aplikace jsme využili knihovnu \texttt{Spring Boot}. Dalším rozšířením je knihovna Thymeleaf, pro dynamické renderování \texttt{HTML} na straně serveru. Již zmíněné technologie jsou nedílnou součástí praktické části. 
-Jako bundler statických prvků a minifikaci JavaScriptu jsme použili nástroj zvaný \texttt{Webpack}. Jeho výhodou je jednoduchá konfigurace a používání.
-Bundler nám spojí všechny potřebné použité javascript soubory do jednoho zminifikovaného souboru.
-Pro ukládání dat použijeme objektově-relační databázový server PostgresSQL, který je zdarma a je připravený na vysoký počet požadavků.
-
-\subsection{Alternativní knihovny}
-Je mnoho alternativních knihoven, které jsme mohli použít. Ukážeme si pár z nich. Za zmínku stojí Babylon.js. Tato knihovna se používá na vytváření her v prohlížeči. Kód z Babylon.js je možné exportovat do Unity 3D herního enginu. Zaměřuje se tedy více na kolize, události, rendering a vyhlazování. Oba dva jsou v tuto chvíli nejlepšími 3D JavaScriptovými knihovnami s open source licencí. Alternativou Webpack bundleru je \texttt{Rollup}. Konfigurací se velmi podobá \texttt{Webpack} bundleru. Je jen o zanedbatelnou dobu pomalejší.
-Na straně serveru jsme mohli použít mnoho různých alternativ, protože požadavek od serveru je odpovídat a přijímat žádosti o data a posílat je uživateli na jeho rozhraní, přijímat označená data z uživatelského rozhraní a ukládat je na straně serveru k budoucí analýze. Dalšími možnostmi byla webová aplikační knihovna \texttt{Django} s programovacím jazykem Python. Tato kombinace je velmi dobrá pro rychlý vývoj jednoduchých aplikací. Další alternativou bylo PHP s některým z frameworků jako je například Laravel. Neměli jsme žádné specifické požadavky od systému, ve kterých bychom mohli říct, že využijeme určitý programovací jazyk, protože by byl pro tuto problematiku lepší. Požadavky od naší serverové části by efektivně zvládnulo mnoho jazyků. Nelze tedy z našich požadavků vybrat jen jeden jazyk a říct že, pro nás bude nejlepší. Pro databázový server jsme měli mnoho možností. Jedním z mnoha je \texttt{MySQL}. Tento databázový server je velmi rychlý i ve velkém množství čtecích operací. Je také uspornější na místo v paměti, ale za cenu problému s konkurencí. Pro náš systém jsme potřebovali databázový systém který bude efektivně číst a psát větší množství dat.
-
-
-
-\subsection{Základy knihovny Three.js}
-Abychom mohli pomocí knihovny Three.js cokoliv zobrazit, tak k tomu potřebujeme tři nezbytné a základní věci, bez kterých bychom se neobešly. Těmito třemi základními věcmi jsou scéna, kamera a renderer. Scéna je virtuální trojrozměrný prostor, do kterého přidáváme objekty. Kamera nám zařizuje projekci objektů na 2D obrazovku, jaký typ projekce záleží na kameře. Poslední a nejdůležitější částí je renderer. Renderer nám zařizuje vykreslení scény z pohledu kamery, popřípadě více kamer. Stále nám však tyto prvky nemají co zobrazit, nejdříve si musíme vytvořit nějaké objekty, které můžeme přidat do scény. Každý objekt musí mít pozici, na kterou ji přidáváme do scény.
+\subsection{Základy knihovny Three.js} Abychom mohli pomocí knihovny Three.js cokoliv zobrazit, tak k tomu potřebujeme tři nezbytné a základní věci, bez kterých bychom se neobešli. Těmito třemi základními věcmi jsou scéna, kamera a renderer. Scéna je virtuální trojrozměrný prostor, do kterého přidáváme objekty. Kamera nám zařizuje projekci objektů na 2D obrazovku, jaký typ projekce záleží na kameře. Poslední a nejdůležitější částí je renderer. Renderer nám zařizuje vykreslení scény z pohledu kamery, popřípadě více kamer. Stále nám však tyto prvky nemají co zobrazit, nejdříve si musíme vytvořit nějaké objekty, které můžeme přidat do scény. Každý objekt musí mít pozici, na kterou ji přidáváme do scény. Scéna v \texttt{Three.js} má souřadnicový systém pravotočivý. Když si vezmeme pravou ruku a dáme ji dlaní před sebe, tak osu \texttt{x} představuje palec, ukazováček směřující vzhůru je osa \texttt{y} a pokrčený  prostředníček směřující k tělu je osa \texttt{z}.
 % maybe add more how camera works frustum etc.
 
 \subsection{Vytváření objektů v Three.js}\label{secref:secref6}
@@ -352,11 +342,17 @@ Pro zjišťování obrysů ve scéně za našim kurzorem budeme používat Ray-t
 
 
 \section{Implementace}
-V této kapitole najdeme postup a implementaci systému od úplného začátku až do konce. Začneme na serveru od základní funkcionality až po REST API, pak se přesuneme na vizualizaci a selekci i s odesíláním dat na straně uživatele.
+V této kapitole najdeme postup a implementaci systému od úplného začátku až do konce. Začneme na serveru od základní funkcionality až po datový model, pak se přesuneme na vizualizaci a selekci i s odesíláním dat na straně uživatele.
 
-\subsection{Datový model}
-Důležitou částí je datový model našeho informačního systému. Model si rozdělíme podle chtěných požadavků od server, ukládání selekcí objektů a získávání všech možných dat z jednoho mraku bodů. Na obrázku \ref{fig:datamodel} můžeme vidět rozdělení těchto požadavků zobrazených UML diagramem. Tabulka \texttt{main\_menu\_storage} obsahuje všechny unikátní výjezdy s LIDAR zařízením. Každý mrak bodů je uložen na samostatném řádku, tabulka \texttt{raw\_data\_store}, s přímým odkazem v jaké jízdě byl zaznamenán a odkazem na další tabulku \texttt{raw\_data\_pictures}. V této tabuce jsou uloženy cesty na snímek z přední strany vozidla a zadní strany vozidla. Tyto zmíněné tabulky jsou potřebné k posílání dat na stranu uživatele za účelem vizualizace. 
-Druhou částí je ukládání selekce specifických objektů, které si uživatel vybral. V tabulce \texttt{selected\_data\_parts} jsou uložené všechny body dané selekce s informací ze kterého mraku bodů byla vytvořena. Jsou zde uloženy ještě další informace. Mezi tyto informace patří jméno objektu v selekci, tabulka \texttt{selected\_item\_name} a snímek selekce, tabulka \texttt{selected\_item\_pictures}. 
+
+\subsection{REST API} 
+REST API je rozhraní na straně serveru, které za pomoci HTTP požadavků provádí akce s daty. Cílem je vytvořit akce na url adresy pro získání/uložení LIDARových dat. Akce musí být parametrizovatelné, abychom věděli, jaká data máme poskytnout, popřípadě uložit. Nejdříve potřebujeme mít nějaká lidarová data a snímky z přední a zadní strany jízdy. Tato data musíme mít uložené na serveru, přesněji v databázi, abychom je mohli poskytovat uživateli. Dále uživatel si bude moci vybírat určité části lidarového mraku bodů s obrazovými daty, a proto je budeme muset uložit. Dále ještě musíme poskytnout již zmíněné selekce k znovuzobrazení. Tyto služby budeme pomocí \texttt{REST API} poskytnout, aby mohla aplikace na straně uživatele komunikovat se serverem.
+
+
+\subsection{Datový model} 
+Důležitou částí je datový model našeho informačního systému. Model si rozdělíme podle chtěných požadavků od serveru, ukládání selekcí objektů a získávání všech možných dat z jednoho mraku bodů. Na obrázku \ref{fig:datamodel} můžeme vidět rozdělení těchto požadavků zobrazených UML diagramem. Tabulka \texttt{main\_menu\_storage} obsahuje všechny unikátní výjezdy s LIDAR zařízením. Každý mrak bodů je uložen na samostatném řádku, tabulka \texttt{raw\_data\_store}, s přímým odkazem na to, v jaké jízdě byl zaznamenán a odkazem na další tabulku \texttt{raw\_data\_pictures}. V této tabulce jsou uloženy odkazy ke snímkům na disku z přední a zadní strany vozidla. Tyto zmíněné tabulky jsou potřebné k posílání dat na stranu uživatele za účelem vizualizace. Druhou částí je ukládání selekce specifických objektů, které si uživatel vybral. V tabulce \texttt{selected\_data\_parts} jsou uložené všechny body dané selekce s informací, ze kterého mraku bodů byla vytvořena. Jsou zde uloženy ještě další informace. Mezi tyto informace patří jméno objektu v selekci, tabulka \texttt{selected\_item\_name} a snímek selekce, tabulka \texttt{selected\_item\_pictures}.
+
+
 
 \begin{figure}[H]
 \includegraphics[width=\linewidth]{Figures/dataModel.png}
@@ -365,30 +361,13 @@ Druhou částí je ukládání selekce specifických objektů, které si uživat
 \end{figure} 
 
 
-%todo rewrite for java
-\subsection{Základ serverové části REDO}
 
-Django je založené na návrhovém vzoru Model-View-Controller, zkráceně MVC. Při bližším poznání této knihovny zjistíme, že se nám struktura spíše blíží k Model-Template-View + Controller, zkráceně MTV. Model slouží jako reprezentace databázové tabulky. Databázi jsme při implementaci systému nepoužil. View v MVC struktuře značí, co uživatel uvidí, v Django struktuře to odpovídá Template části. Template jsou HTML stránky. View v Djangu odpovídá controller části struktury. Je zde provedena bussines logika před odesláním Template stránky. Vysvětlím pouze pár z Djangem vytvořených souborů. Soubor \texttt{urls.py} je konfigurace url, na kterých budou namapované odpovídající akce. Soubor \texttt{settings.py} je konfigurační dokument celého Django projektu. Ve \texttt{views.py} máme funkční část. V souboru \texttt{urls.py} máme url serveru, ke které je přiřazená odpovídající metoda v souboru \texttt{views.py}. Jelikož většina aplikační logiky se odehrává na straně uživatele, tak potřebujeme, aby nám server vrátil požadovanou stránku s odpovídajícím JavaScript souborem. Jako první v souboru \texttt{urls.py} vytvoříme mapování a v souboru \texttt{views.py} metodu, která nám odpoví na náš požadavek a pošle nám odpovídající HTML stránku. HTML stránku musíme vytvořit v složce templates. Tato složka je vytvořena automaticky s Django projektem. 
+\subsection{Scéna a kamera} Scéna je náš virtuální prostor, do kterého budeme přidávat LIDARové body. K chtěnému zobrazení této scény potřebujeme ještě kameru a renderer. Kamera nám ohraničuje specifickou část prostoru, kterou nám renderer zobrazí. Tato část prostoru se nazývá kamerové frustum. Renderer nám zajistí, aby se pracovalo pouze s objekty, které leží uvnitř tohoto frustumu. Kamera nám zajistí projekci viz. \ref{secref:secref16}. 
 
-\lstinputlisting[language=python,caption=Základní nastavení django serveru.]{SourceCodes/basicDjango.py}
-
-Z kódové ukázky můžeme vidět, že jsme vytvořili mapování na znak \texttt{/}. Symbol dolar na konci url nám říká, že tento řetězec musí být na konci. Pokud by url nějak pokračovala, tak by neodpovídala regexu z ukázky. Požadavek by v tom případě hledal jinou adekvátní variantu, kterou by daná url splňovala. Tímto se nám úvodní stránkou stane cokoliv co si přidáme do funkce, na kterou jsme danou akci odkázali. V naší ukázce je to metoda \texttt{index}. V této metodě jsme pouze zavolali metodu \texttt{render} s názvem naší HTML stránky jako druhým parametrem. Naši šablonu si ukážeme v kapitole \ref{secref:secref3}. 
-
-
-%todo dodělat
-\subsection{Scéna a kamera}
-Scéna je náš virtuální prostor, do kterého budeme přidávat LIDARové body. K chtěnému zobrazení této scény potřebujeme ještě kameru a renderer. Kamera nám ohraničuje specifickou část prostoru, kterou nám renderer zobrazí. Tato část prostoru se nazývá kamerové frustum. Renderer nám zajistí aby se pracovalo pouze s objekty, které leží uvnitř tohoto frustumu. Kamera nám zajistí projekci viz. \ref{secref:secref16}. 
-
-\begin{minipage}{\linewidth}
-\lstinputlisting[language=JavaScript,label={secref:secref17},caption=Vytvoření scény s kamerou a rendererem.]{SourceCodes/mainScene.js}
-\end{minipage}
-
-V kódu \ref{secref:secref17} vidíme konstruktor a metody \texttt{animate}, \texttt{stopAnimation} a \texttt{onWindowResize}. V konstruktoru vytvoříme virtuální scénu, perspektivní kameru a renderer. Vytvoření je velmi snadné s \texttt{Three.js} knihovnou. Pro náš projekt jsme si vybrali perspektivní kameru, abychom napodobili pohled lidského oka, které zkresluje velikost objektu s rostoucí vzdáleností. Tímto se liší ortografická kamera od perspektivní. K vytvoření kamery potřebujeme nejdříve pár důležitých parametrů. Prvním parametrem je \texttt{field of view} neboli zorné pole. Tímto číslem určíme úhel ve stupních, který bude mít vertikální úhel kamerového frustumu. Vertikální FOV u běžných kamer jsou v rozmezí $60\circ$ - $110\circ$. Druhým parametrem je je poměr stran rámce, do které budeme chtít zobrazit naši scénu. V našem případě chceme výsledný rámec přes celou obrazovku prohlížeče, proto \texttt{window.innerWidth / window.innerHeight}. Na základě tohoto parametru si \texttt{Three.js} dopočítá horizontální FOV, aby obraz nebyl zkreslený. Třetím parametr značí vzdálenost, od pozice kamery, k přední stěně pyramidového frustumu. V této vzdálenosti nám vznikne promítací rovina, na kterou se nám promítne scéna a vytvoří nám obraz do našeho rámce v prohlížeči. Poslední parametr značí také vzdálednost, ale k nejvzdálenější stěně kamerového frustumu. Renderer nám zajistí vytvoření výsledného \texttt{HTML canvas} plátna, proto mu musíme určit velikost tohoto plátna. Už stačí jen přidat do objektového modulu dokumentu stránky. To ještě není všechno, stále potřebujeme funkci, která nám bude periodicky vykreslovat aktuální scénu na plátno. K tomuto účelu použijeme metodu \texttt{animate}, která využívá funkci \texttt{requestAnimationFrame}. Tato funkce říká prohlížeči že chceme provést animaci a specifikovat chování překreslení. Proto do této funkce dáváme jako parametr referenci na funkci \texttt{animate}. Tímto vytvoříme nekonečný cyklus kde v každé iteraci budeme na rendereru volat metodu \texttt{render}. V zmíňovaném kódu ještě máme vytvořený posluchač na událost \texttt{změna velikosti}, který nám upravý poměr stran kamery a aktualizuje její projektční matici. Dále už jen aktualizuje velikost výsledného plátna. Výsledkem tohoto kódu máme na naší \texttt{HTML} stránce plátno, s pohledem na scénu. Bohužel nic na našem plátně neuvidíme z důvodu že nemáme žádný objekt v scéně.
-
-
-\subsection{REST API REDO}
-REST API je rozhraní na straně serveru, které za pomoci HTTP požadavků provádí akce s daty. Cílem je vytvořit akci na url adresu pro získání/uložení LIDARových dat. Akce musí být parametrizovatelné, abychom věděli, jaká data máme poskytnout/uložit.
-%todo má cenu v téhle sekci pokračovat?
+\begin{minipage}{\linewidth} 
+\lstinputlisting[language=JavaScript,label={secref:secref17},caption=Vytvoření scény s kamerou a rendererem.]{SourceCodes/mainScene.js} 
+\end{minipage} 
+V kódu \ref{secref:secref17} vidíme konstruktor a metody \texttt{animate}, \texttt{stopAnimation} a \texttt{onWindowResize}. V konstruktoru vytvoříme virtuální scénu, perspektivní kameru a renderer. Vytvoření je velmi snadné s \texttt{Three.js} knihovnou. Pro náš projekt jsme si vybrali perspektivní kameru, abychom napodobili pohled lidského oka, které zkresluje velikost objektu s rostoucí vzdáleností. Tímto se liší ortografická kamera od perspektivní. K vytvoření kamery potřebujeme nejdříve pár důležitých parametrů. Prvním parametrem je \texttt{field of view}, neboli zorné pole. Tímto číslem určíme úhel ve stupních, který bude mít vertikální úhel kamerového frustumu. Vertikální FOV u běžných kamer jsou v rozmezí $60\circ$ - $110\circ$. Druhým parametrem je poměr stran rámce, do kterého budeme chtít zobrazit naši scénu. V našem případě chceme výsledný rámec přes celou obrazovku prohlížeče, proto \texttt{window.innerWidth / window.innerHeight}. Na základě tohoto parametru si \texttt{Three.js} dopočítá horizontální FOV, aby obraz nebyl zkreslený. Třetí parametr značí vzdálenost, od pozice kamery, k přední stěně pyramidového frustumu. V této vzdálenosti nám vznikne promítací rovina, na kterou se nám promítne scéna a vytvoří nám obraz do našeho rámce v prohlížeči. Poslední parametr značí také vzdálenost, ale k nejvzdálenější stěně kamerového frustumu. Renderer nám zajistí vytvoření výsledného \texttt{HTML canvas} plátna, proto mu musíme určit velikost tohoto plátna. Už stačí jen přidat do objektového modulu dokumentu stránky. To ještě není všechno, stále potřebujeme funkci, která nám bude periodicky vykreslovat aktuální scénu na plátno. K tomuto účelu použijeme metodu \texttt{animate}, která využívá funkci \texttt{requestAnimationFrame}. Tato funkce říká prohlížeči, že chceme provést animaci a specifikovat chování překreslení. Proto do této funkce dáváme jako parametr referenci na funkci \texttt{animate}. Tímto vytvoříme nekonečný cyklus, kde v každé iteraci budeme na rendereru volat metodu \texttt{render}. Ve zmíněném kódu ještě máme vytvořený posluchač na událost \texttt{změna velikosti}, který nám upraví poměr stran kamery a aktualizuje její projekční matici. Dále už jen aktualizuje velikost výsledného plátna. Výsledkem tohoto kódu máme na naší \texttt{HTML} stránce plátno, s pohledem na scénu. Bohužel nic na našem plátně neuvidíme z důvodu, že nemáme žádný objekt ve scéně.
 
 
 
@@ -431,6 +410,7 @@ Druhý bod se bude trošku lišit od projekce prvního bodu.
 
 Zde se poprvé setkáváme s třídou \texttt{Raycaster}. Tato třída slouží k detekci objektů. Po inicializaci \texttt{raycasteru} musíme namířit na správný směr a nastavit správnou pozici. O to se nám postará metoda \texttt{setFromCamera} se dvěmi vstupními parametry. Prvním je \texttt{THREE.Vector2}, který obsahuje vypočítané údaje pro projekci bodu a druhým parametrem je naše hlavní kamera. Nyní si vytvoříme rovinu z coplanar bodu a normály. Jako coplanar bod využíváme ten, který jsme vytvořili na začátku této podkapitoly. Jako poslední krok řekneme raycasteru, aby vyslal paprsek, který má zkusit protnout rovinu a výsledek uložit do proměnné \texttt{result}.
 
+
 \begin{minipage}{\linewidth}
 \lstinputlisting[language=JavaScript,label={secref:secref9},caption=Vytvoření obrysu selekce.]{SourceCodes/makeBorder.js}  
 \end{minipage}
@@ -457,21 +437,71 @@ V tomto kódu vytváříme náš vlastní tvar. Postupně, díky délkám stran 
 
 Zmíněné ukázky kódu nevytvářejí oranžový obrys \ref{fig:selectionBefore} na obrazovce. Již promítnutá selekce v prostoru \ref{fig:selectionAfter} je výsledkem z námi zmíněných ukázek kódu v kapitole \ref{secref:secref10}. Obrys \ref{fig:selectionBefore} nakreslený s pomocí canvas elementu na 2D obrazovce vypadá naprosto identicky, jako obrys v prostoru \ref{fig:selectionAfter} díky projekci.
 
+
 \subsection{Zachycení obrazu selekce}\label{secref:secref13} 
-K zachycení obrazu selekce budeme potřebovat novou kameru, která bude směřovat na střed naší selekce. Kameru potřebuje, aby nám vytvořila novou projekci. Vytvoříme si novou perspektivní kameru a namíříme na střed mezi dvěmi námi vytvořenými body v podkapitole \ref{secref:secref10}
+Z kapitoly \ref{secref:secref16} jsme se dozvěděli základní princip perspektivní projekce, teď si ukážeme jakým způsobem je prováděna. K provedení projekce potřebujeme projekční matici. Každá kamera má projekční matici. Tato projekční matice 4x4 je vytvořena při vytvoření kamery. Nejdříve si vysvětlíme na základě jakých parametrů je perspektivní projekční matice vytvořena, poté si ukážeme výsledný tvar objektu po aplikování a nakonec implementaci zachycení obrazů selekcí. 
 
-\lstinputlisting[language=JavaScript,caption=Vytváření kamery pro sledování selekce.]{SourceCodes/additionalCamera.js} 
+\begin{equation}
+		P =
+		\begin{bmatrix}%
+    x & 0 & 0 & 0 \\
+		0 & y & 0 & 0 \\ 
+		0 & 0 & a & b \\
+		0 & 0 & -1 & 0 
+    \end{bmatrix}
+\label{eq:eq4}
+\end{equation}
 
-Při vizualizování selekce také vytvoříme novou perspektivní kameru pro zachycení snímku selekce. Tento kód nám vytvoří novou perspektivní kameru a nastaví ji pozici ve středu scény. Dále ji nastavíme směr, na který se bude dívat. Vektoru s našim chtěným směrem docílíme tak, že sečteme vektor prvního a druhého bodu. Výsledkem je vektor procházející středem mezi těmito body. Nakonec přidáme naši kameru do skupiny pomocných kamer. 
 
-\lstinputlisting[language=JavaScript,caption=Získání snímku z kamery.]{SourceCodes/createImageFromCameras.js} 
+ Zde můžeme vidět zjednodušený vzorec projekční matice kamery, kterou používá knihovna \texttt{Three.js}. Při vytváření nové kamery \ref{secr:additionalcamera} jsme specifikovali ještě další údaje. Tyto údaje jsou horizontální \texttt{FOV} ve stupních, poměr stran, vzdálenost přední a zadní roviny kamerového frustumu. Všechny tyto informace budeme potřebovat na vytvoření projekční matice. 
 
-V proměnné \texttt{groupOfCameras} jsou uloženy kamery všech selekcí. Musíme vytvořit cyklus, který proiteruje všechny kamery a pro každou kameru se provede projekce scény. Projekce se provede při zavolání metody render s parametry scéna a kamera. Poté, co renderer provede projekci na základě kamery, použijeme metodu \texttt{toDataURL()}, která nám výsledek projekce vyexportuje do base64 kódování. Tuto informaci si uložíme. Po dokončení všech iterací pošleme všechna data, co jsme získali z kamery na server. Na serveru vytvoříme mapování v \texttt{urls.py} a následně také funkci v souboru \texttt{views.py}. 
+$$y = \frac{1}{\tan(\frac{FOV}{2} * \frac{\pi}{180})}$$ 
 
-%todo remake this from python
-\lstinputlisting[language=python,caption=Ukládání obrazu selekce.]{SourceCodes/storingImages.py}
+Tímto vzorcem vypočteme délku odvěsny uvnitř kamerového frustumu. Používáme funkci tangens s polovinou úhlu \texttt{FOV}, násobenou $\frac{\pi}{180}$ pro převod ze stupňů na radiány. Používáme pouze polovinu úhlu \texttt{FOV}, protože nás zajímá pravý úhel uvnitř frustumu. 
 
-Na straně serveru musíme také proiterovat data ze všech kamer. Vytvoříme si cestu k souboru i s názvem. Jak již bylo zmíněno, data jsou zakódována v base64, proto musíme tato data dekódovat. K tomu využijeme Python knihovnu \texttt{base64} a dekódujeme na náš obrázek. Na začátku našich obrazových dat byly dodatečné informace o typu dat, proto využijeme až část s realnými daty. Otevřeme soubor na námi specifikované cestě a použijeme mód 'wb', který nám říká, že chceme do souboru zapisovat binárně a následně do našeho nově vytvořeného souboru zapíšeme dekódovaná data. Výsledkem bude snímek z naší kamery uložený ve formátu \texttt{png}.
+$$x = \frac{y}{aspect}$$ 
+
+Pro získání této hodnoty využijeme výsledek předešlé rovnice a vydělíme ji poměrem stran. Tento poměr stran jsme získali při vytváření kamerového objektu. Tímto jsme upravili kamerové frustum tak, aby se nepodobalo pravidelnému rovnostrannému hranolu. Teď přední rovina kamerového frustumu již není čtverec, ale obdélník. Tyto dva parametry matice budou ovlivňovat hodnoty \texttt{x,y} v naší projekci. Hodnoty \texttt{a,b} budou ovlivňovat změnu měřítka objektu na vzdálenosti od pozice kamery. 
+
+$$a = \frac{-\left(f+n\right)}{f-n}$$ 
+$$b = \frac{-2fn}{f-n}$$ 
+
+Výsledek hodnoty \texttt{a} bude měnit měřítko souřadnice \texttt{z} v kartézské soustavě souřadnic, a hodnota \texttt{b} bude konstanta, která bude přičtena k výsledné souřadnici \texttt{z}. Proměnná \texttt{f} nám značí vzdálenost od pozice kamery po nejvzdálenější rovinu kamerového frustumu. Tuto vzdálenost jsme vkládali při vytváření kamerového objektu. Proměnná \texttt{n} nám označuje vzdálenost k nejbližší rovině kamerového frustumu. 
+% todo ask teacher why there is -1 : V rovnici \ref{eq:eq4} jste si mohli všimnout hodnoty $P_{32}=-1$ 
+
+Ukážeme si, co se stane s objekty po aplikování projekční matice. Na obrázcích \ref{fig:projectionMatrixCameraFrustum1}, \ref{fig:projectionMatrixCameraFrustum2} vidíme modře zbarvené objekty uvnitř červeného kamerového frustumu. Červeně vyznačená část je jediná část scény, kterou jsme schopni vidět. Pokud vše vynásobíme projekční maticí, získáme \ref{fig:projectionMatrixCameraFrustum2}. Nyní se z našeho frustumu stal kvádr a všechny objekty byly také transformovány. Objekty, které jsou blíže kameře jsou větší, a s rostoucí vzdáleností se objekty stávají menšími. Stejně jako v reálném životě. Na obrázku \ref{fig:finalProjectionImageFromCamera} můžeme vidět vykreslení finálního výsledku. 
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[c]{0.48\linewidth}        %% or \columnwidth
+        \centering
+        \includegraphics[width=\linewidth]{Figures/projectionMatrixCameraFrustum1.png}
+        \caption{Ukázka kamerového frustumu před projekcí \cite{tutorial3matrices}.} % todo add citation http://www.opengl-tutorial.org/beginners-tutorials/tutorial-3-matrices/}
+        \label{fig:projectionMatrixCameraFrustum1}
+    \end{minipage}
+    \begin{minipage}[c]{0.48\linewidth}        %% or \columnwidth
+        \centering
+        \includegraphics[width=\linewidth]{Figures/projectionMatrixCameraFrustum2.png}
+        \caption{Ukázka kamerového frustumu po projekci \cite{tutorial3matrices}.}
+        \label{fig:projectionMatrixCameraFrustum2}
+    \end{minipage}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\linewidth]{Figures/finalProjectionImageFromCamera.png}
+\caption{Výsledný obraz po projekci \cite{tutorial3matrices}. }
+\label{fig:finalProjectionImageFromCamera}
+\end{figure} 
+
+K implementaci zachycení obrazu selekce budeme potřebovat novou kameru, která bude směřovat na střed naší selekce. Kameru potřebuje, aby nám vytvořila novou projekci. Vytvoříme si novou perspektivní kameru a namíříme na střed mezi dvěma námi vytvořenými body v podkapitole \ref{secref:secref10} 
+
+\lstinputlisting[language=JavaScript,label={secr:additionalcamera},caption=Vytváření kamery pro sledování selekce.]{SourceCodes/additionalCamera.js}
+ 
+Při vizualizování selekce také vytvoříme novou perspektivní kameru pro zachycení snímku selekce. Tento kód nám vytvoří novou perspektivní kameru a nastaví ji pozici ve středu scény. Dále ji nastavíme směr, na který se bude dívat. Vektoru s naším chtěným směrem docílíme tak, že sečteme vektor prvního a druhého bodu. Výsledkem je vektor procházející středem mezi těmito body. Nakonec přidáme naši kameru do skupiny pomocných kamer. 
+
+\lstinputlisting[language=JavaScript,caption=Získání snímku z kamery.]{SourceCodes/createImageFromCameras.js}
 
 
 \subsection{Export vybraných bodů z selekce}
@@ -526,11 +556,12 @@ Třída \texttt{CustomFrustum} nám slouží pro uložení našeho jehlanu. Při
 \subsection{Pohyb selekcí} 
 Než začneme, tak si musíme uvědomit, že naše obrysy jsou v prostoru scény a my se díváme na jejich projekci. Takže budeme muset zjistit za pomoci projekce na zadní rovinu frustumu kamery, jestli nějaký obrys byl protnut při této akci. Když zjistíme, že obrys byl zasáhnut, tak musíme získat všechny potřebné údaje pro budoucí práci s ním. Další se musíme rozhodnout, jakým způsobem chceme, aby se náš obrys pohyboval v trojrozměrném prostoru, a jakým způsobem budeme ovládat pohyb z dvojrozměrné obrazovky. Rozhodli jsme se, že naše obrysy musí být pohybovatelné okolo naší kamery a proto pohyb selekce musí kopírovat poloměr koule. Rotace obrysu bude záviset na hlavní kameře, ze které budeme pohyb ovládat.
 
+\medskip
 \begin{minipage}{\linewidth}
 \lstinputlisting[language=JavaScript,label={secref:secref11},caption=Získání obrysu na základě události myši.]{SourceCodes/onMouseClickDrag.js} 
 \end{minipage}
 
-Budeme potřebovat vytvořit události na adekvátní akce myši. K tomu budeme potřebovat použít \texttt{THREE.Raycaster}, který nám pomoci bodu z naší obrazovky zjistí, zda nějaký objekt je ve scéně za touto projekcí. Nejdříve nastavíme\texttt{raycaster}, aby použil projekční matici naší hlavní perspektivní kamery, pak použijeme metodu \texttt{intersectObjects} s parametrem \texttt{objects}, ten obsahuje všechny naše obrysy. Pokud nějaký obrys našel, tak si náš objekt uložíme do třídní proměnné \texttt{selected}. Kdyby bylo více obrysů za sebou, metoda by vrátila oba obrysy, ale seřadila by je od nejbližšího po nejvzdálenější. Proměnnou \texttt{selected} použijeme i při dalších událostech, pak pomocí metody \texttt{intersectSphere} získáme pozici střetu koule, po které chceme obrys pohybovat s projekčním paprskem. Výsledek je pak uložen do proměnné \texttt{intersection}. Obrys má pouze jediný pevný bod, na který se nevztahuje rotace, a ten je uložen ve vlastnosti \texttt{position}. Od tohoto bodu je vytvořená geometrie, která podléhá rotaci. Když budeme vybírat obrys v naší scéně, tak nebudeme vždy mířit na tento bod, proto potřebuje odchylku našeho kliknutí od pevného bodu. To nám zařizuje proměnná \texttt{offset}, která zkopíruje bod dotyku s koulí a odečte z něj pozici pevného bodu obrysu. Výsledkem bude vektor, který při pohybu budeme muset odčítat, abychom mohli z jakéhokoliv místa pohybovat obrysem a zachovali pohyb po chtěné kouli. Kód \ref{secref:secref11} přiřadíme k události \texttt{mousedown}.
+Budeme potřebovat vytvořit události na adekvátní akce myši. K tomu budeme potřebovat použít \texttt{THREE.Raycaster}, který nám pomoci bodu z naší obrazovky zjistí, zda nějaký objekt je ve scéně za touto projekcí. Nejdříve nastavíme \texttt{raycaster}, aby použil projekční matici naší hlavní perspektivní kamery, pak použijeme metodu \texttt{intersectObjects} s parametrem \texttt{objects}, ten obsahuje všechny naše obrysy. Pokud nějaký obrys našel, tak si náš objekt uložíme do třídní proměnné \texttt{selected}. Kdyby bylo více obrysů za sebou, metoda by vrátila oba obrysy, ale seřadila by je od nejbližšího po nejvzdálenější. Proměnnou \texttt{selected} použijeme i při dalších událostech, pak pomocí metody \texttt{intersectSphere} získáme pozici střetu koule, po které chceme obrys pohybovat s projekčním paprskem. Výsledek je pak uložen do proměnné \texttt{intersection}. Obrys má pouze jediný pevný bod, na který se nevztahuje rotace, a ten je uložen ve vlastnosti \texttt{position}. Od tohoto bodu je vytvořená geometrie, která podléhá rotaci. Když budeme vybírat obrys v naší scéně, tak nebudeme vždy mířit na tento bod, proto potřebuje odchylku našeho kliknutí od pevného bodu. To nám zařizuje proměnná \texttt{offset}, která zkopíruje bod dotyku s koulí a odečte z něj pozici pevného bodu obrysu. Výsledkem bude vektor, který při pohybu budeme muset odčítat, abychom mohli z jakéhokoliv místa pohybovat obrysem a zachovali pohyb po chtěné kouli. Kód \ref{secref:secref11} přiřadíme k události \texttt{mousedown}.
 
 \lstinputlisting[language=JavaScript,label={secref:secref12},caption=Pohyb obrysu ve scéně.]{SourceCodes/onMouseMoveDrag.js}
 
@@ -546,7 +577,7 @@ Cílem bakalářské práce bylo nastudovat potřebné webové knihovny pro vytv
 
 V rámci této práce byla vytvořena vizualizace LIDARových dat ve webovém prohlížeči s podporou selekcí částí prostoru. Selekce jsou na základě akcí upravovatelné. Export LIDARových bodů selekce na server plus obrazová data pozadí těchto bodů. Znovupřehrání selekcí i s obsaženými daty také zaimplementováno.
 
-Tato práce mi byla velkým přínosem. Rozšířila mi obzor, a díky ní jsem získal obecný přehled ohledně počítačové grafiky, vizualizačních algoritmů a nepostradatelnou součást matematiky. Délka implementace systému se velmi lišila od mých odhadů z důvodu neznalosti základů geometrii, projekcí kamer, transformačních matic a nulových zkušeností s WebGl. V konečné fázi jsem si začal uvědomovat chyby nepoužití třívrstvé architektury při návrhu systému. I s brzkým začátkem implementační části projektu se z již zmíněných důvodů produktivní vývoj blížil až ke konci projektu.
+Tato práce mi byla velkým přínosem. Rozšířila mi obzor, a díky ní jsem získal obecný přehled ohledně počítačové grafiky, vizualizačních algoritmů a nepostradatelnou součást matematiky. Délka implementace systému se velmi lišila od mých odhadů z důvodu neznalosti základů geometrii, projekcí kamer, transformačních matic a nulových zkušeností s WebGl. I s brzkým začátkem implementační části projektu se z již zmíněných důvodů produktivní vývoj blížil až ke konci projektu.
  
 %\addcontentsline{toc}{section}{Závěr}
 

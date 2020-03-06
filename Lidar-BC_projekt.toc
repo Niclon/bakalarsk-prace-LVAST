@@ -28,14 +28,13 @@
 \contentsline {subsection}{\numberline {3.5}Konkuren\IeC {\v c}n\IeC {\'\i } \IeC {\v r}e\IeC {\v s}en\IeC {\'\i }}{23}{subsection.3.5}
 \contentsline {subsection}{\numberline {3.6}Princip fungov\IeC {\'a}n\IeC {\'\i } kamery}{24}{subsection.3.6}
 \contentsline {section}{\numberline {4}Implementace}{26}{section.4}
-\contentsline {subsection}{\numberline {4.1}Datov\IeC {\'y} model}{26}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Z\IeC {\'a}klad serverov\IeC {\'e} \IeC {\v c}\IeC {\'a}sti REDO}{27}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Sc\IeC {\'e}na a kamera}{28}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}REST API REDO}{30}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Vizualizace LIDARov\IeC {\'y}ch dat}{30}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}V\IeC {\'y}b\IeC {\v e}r prostoru}{32}{subsection.4.6}
-\contentsline {subsection}{\numberline {4.7}Zachycen\IeC {\'\i } obrazu selekce}{36}{subsection.4.7}
-\contentsline {subsection}{\numberline {4.8}Export vybran\IeC {\'y}ch bod\IeC {\r u} z selekce}{38}{subsection.4.8}
-\contentsline {subsection}{\numberline {4.9}Pohyb selekc\IeC {\'\i }}{39}{subsection.4.9}
+\contentsline {subsection}{\numberline {4.1}REST API}{26}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Datov\IeC {\'y} model}{26}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Sc\IeC {\'e}na a kamera}{27}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Vizualizace LIDARov\IeC {\'y}ch dat}{29}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}V\IeC {\'y}b\IeC {\v e}r prostoru}{31}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Zachycen\IeC {\'\i } obrazu selekce}{35}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Export vybran\IeC {\'y}ch bod\IeC {\r u} z selekce}{38}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}Pohyb selekc\IeC {\'\i }}{40}{subsection.4.8}
 \contentsline {section}{\numberline {5}Z\IeC {\'a}v\IeC {\v e}r}{42}{section.5}
 \contentsline {section}{Literatura}{43}{section.5}
