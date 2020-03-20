@@ -8,14 +8,14 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Zobrazen\IeC {\'\i } dat z modelu VLP-16 pomoc\IeC {\'\i } softwaru VeloView. \relax }}{13}{figure.caption.1}
 \contentsline {figure}{\numberline {2}{\ignorespaces Paket modelu VLP-16 \cite {packet}. \relax }}{17}{figure.caption.3}
 \contentsline {figure}{\numberline {3}{\ignorespaces Paket modelu VLP-16 v re\IeC {\v z}imu vr\IeC {\'a}cen\IeC {\'\i } dvou \cite {packet}. \relax }}{18}{figure.caption.4}
-\contentsline {figure}{\numberline {4}{\ignorespaces Rozd\IeC {\'\i }ly v po\IeC {\v c}tu segment\IeC {\r u}\relax }}{23}{figure.caption.5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {P\IeC {\v e}t segment\IeC {\r u} na v\IeC {\'y}\IeC {\v s}ku i \IeC {\v s}\IeC {\'\i }\IeC {\v r}ku}}}{23}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {T\IeC {\v r}icetdva segment\IeC {\r u} na v\IeC {\'y}\IeC {\v s}ku i \IeC {\v s}\IeC {\'\i }\IeC {\v r}ku}}}{23}{subfigure.4.2}
-\contentsline {figure}{\numberline {5}{\ignorespaces Perspektivn\IeC {\'\i } projekce kamery \cite {learnwebgl}. \relax }}{24}{figure.caption.6}
-\contentsline {figure}{\numberline {6}{\ignorespaces Datov\IeC {\'y} model informa\IeC {\v c}n\IeC {\'\i }ho syst\IeC {\'e}mu. \relax }}{27}{figure.caption.7}
-\contentsline {figure}{\numberline {7}{\ignorespaces V\IeC {\'y}sledn\IeC {\'a} vizualizace.\relax }}{31}{figure.caption.8}
-\contentsline {figure}{\numberline {8}{\ignorespaces Prvn\IeC {\'\i } bod a druh\IeC {\'y} bod selekce. \relax }}{34}{figure.caption.9}
-\contentsline {figure}{\numberline {9}{\ignorespaces Prom\IeC {\'\i }tnut\IeC {\'\i } bod\IeC {\r u} s ji\IeC {\v z} vytvo\IeC {\v r}en\IeC {\'y}m obrysem. \relax }}{35}{figure.caption.10}
-\contentsline {figure}{\numberline {10}{\ignorespaces Uk\IeC {\'a}zka kamerov\IeC {\'e}ho frustumu p\IeC {\v r}ed projekc\IeC {\'\i } \cite {tutorial3matrices}.\relax }}{37}{figure.caption.11}
-\contentsline {figure}{\numberline {11}{\ignorespaces Uk\IeC {\'a}zka kamerov\IeC {\'e}ho frustumu po projekci \cite {tutorial3matrices}.\relax }}{37}{figure.caption.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} obraz po projekci \cite {tutorial3matrices}. \relax }}{37}{figure.caption.12}
+\contentsline {figure}{\numberline {4}{\ignorespaces Rozd\IeC {\'\i }ly v po\IeC {\v c}tu segment\IeC {\r u}\relax }}{22}{figure.caption.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {P\IeC {\v e}t segment\IeC {\r u} na v\IeC {\'y}\IeC {\v s}ku i \IeC {\v s}\IeC {\'\i }\IeC {\v r}ku}}}{22}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {T\IeC {\v r}icetdva segment\IeC {\r u} na v\IeC {\'y}\IeC {\v s}ku i \IeC {\v s}\IeC {\'\i }\IeC {\v r}ku}}}{22}{subfigure.4.2}
+\contentsline {figure}{\numberline {5}{\ignorespaces Perspektivn\IeC {\'\i } projekce kamery \cite {learnwebgl}. \relax }}{23}{figure.caption.6}
+\contentsline {figure}{\numberline {6}{\ignorespaces Datov\IeC {\'y} model informa\IeC {\v c}n\IeC {\'\i }ho syst\IeC {\'e}mu. \relax }}{26}{figure.caption.7}
+\contentsline {figure}{\numberline {7}{\ignorespaces V\IeC {\'y}sledn\IeC {\'a} vizualizace.\relax }}{30}{figure.caption.8}
+\contentsline {figure}{\numberline {8}{\ignorespaces Prvn\IeC {\'\i } bod a druh\IeC {\'y} bod selekce. \relax }}{33}{figure.caption.9}
+\contentsline {figure}{\numberline {9}{\ignorespaces Prom\IeC {\'\i }tnut\IeC {\'\i } bod\IeC {\r u} s ji\IeC {\v z} vytvo\IeC {\v r}en\IeC {\'y}m obrysem. \relax }}{34}{figure.caption.10}
+\contentsline {figure}{\numberline {10}{\ignorespaces Uk\IeC {\'a}zka kamerov\IeC {\'e}ho frustumu p\IeC {\v r}ed projekc\IeC {\'\i } \cite {tutorial3matrices}.\relax }}{36}{figure.caption.11}
+\contentsline {figure}{\numberline {11}{\ignorespaces Uk\IeC {\'a}zka kamerov\IeC {\'e}ho frustumu po projekci \cite {tutorial3matrices}.\relax }}{36}{figure.caption.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} obraz po projekci \cite {tutorial3matrices}. \relax }}{36}{figure.caption.12}

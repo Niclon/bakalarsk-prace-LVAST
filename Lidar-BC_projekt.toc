@@ -13,28 +13,27 @@
 \contentsline {section}{\numberline {2}LIDAR}{14}{section.2}
 \contentsline {subsection}{\numberline {2.1}Princip fungov\IeC {\'a}n\IeC {\'\i } LIDARu}{14}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Model VLP-16}{14}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Z\IeC {\'a}kladn\IeC {\'\i } pojmy}{15}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Odpalovac\IeC {\'\i } sekvence}{15}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Re\IeC {\v z}imy vr\IeC {\'a}cen\IeC {\'\i } dat}{15}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Vertik\IeC {\'a}ln\IeC {\'\i } \IeC {\'u}hly a kan\IeC {\'a}ly}{16}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Mrak bod\IeC {\r u}}{16}{subsection.2.7}
-\contentsline {subsection}{\numberline {2.8}Data}{16}{subsection.2.8}
-\contentsline {subsection}{\numberline {2.9}P\IeC {\v r}edzpracov\IeC {\'a}n\IeC {\'\i } dat}{18}{subsection.2.9}
-\contentsline {section}{\numberline {3}Vizualizace}{21}{section.3}
-\contentsline {subsection}{\numberline {3.1}V\IeC {\'y}b\IeC {\v e}r technologi\IeC {\'\i }}{21}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Alternativn\IeC {\'\i } knihovny}{21}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Z\IeC {\'a}klady knihovny Three.js}{22}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Vytv\IeC {\'a}\IeC {\v r}en\IeC {\'\i } objekt\IeC {\r u} v Three.js}{22}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Konkuren\IeC {\v c}n\IeC {\'\i } \IeC {\v r}e\IeC {\v s}en\IeC {\'\i }}{23}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Princip fungov\IeC {\'a}n\IeC {\'\i } kamery}{24}{subsection.3.6}
-\contentsline {section}{\numberline {4}Implementace}{26}{section.4}
-\contentsline {subsection}{\numberline {4.1}REST API}{26}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Datov\IeC {\'y} model}{26}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Sc\IeC {\'e}na a kamera}{27}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Vizualizace LIDARov\IeC {\'y}ch dat}{29}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}V\IeC {\'y}b\IeC {\v e}r prostoru}{31}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Zachycen\IeC {\'\i } obrazu selekce}{35}{subsection.4.6}
-\contentsline {subsection}{\numberline {4.7}Export vybran\IeC {\'y}ch bod\IeC {\r u} z selekce}{38}{subsection.4.7}
-\contentsline {subsection}{\numberline {4.8}Pohyb selekc\IeC {\'\i }}{40}{subsection.4.8}
-\contentsline {section}{\numberline {5}Z\IeC {\'a}v\IeC {\v e}r}{42}{section.5}
-\contentsline {section}{Literatura}{43}{section.5}
+\contentsline {subsection}{\numberline {2.3}Odpalovac\IeC {\'\i } sekvence}{15}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Re\IeC {\v z}imy vr\IeC {\'a}cen\IeC {\'\i } dat}{15}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Vertik\IeC {\'a}ln\IeC {\'\i } \IeC {\'u}hly a kan\IeC {\'a}ly}{16}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Mrak bod\IeC {\r u}}{16}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}V\IeC {\'y}stupn\IeC {\'\i } data}{16}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}P\IeC {\v r}edzpracov\IeC {\'a}n\IeC {\'\i } dat}{18}{subsection.2.8}
+\contentsline {section}{\numberline {3}Vizualizace}{20}{section.3}
+\contentsline {subsection}{\numberline {3.1}V\IeC {\'y}b\IeC {\v e}r technologi\IeC {\'\i }}{20}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Alternativn\IeC {\'\i } knihovny}{20}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Z\IeC {\'a}klady knihovny Three.js}{21}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Vytv\IeC {\'a}\IeC {\v r}en\IeC {\'\i } objekt\IeC {\r u} v Three.js}{21}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Alternativn\IeC {\'\i } \IeC {\v r}e\IeC {\v s}en\IeC {\'\i }}{22}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Princip fungov\IeC {\'a}n\IeC {\'\i } kamery}{23}{subsection.3.6}
+\contentsline {section}{\numberline {4}Implementace}{25}{section.4}
+\contentsline {subsection}{\numberline {4.1}REST API}{25}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Datov\IeC {\'y} model}{25}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Sc\IeC {\'e}na a kamera}{26}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Vizualizace LIDARov\IeC {\'y}ch dat}{28}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}V\IeC {\'y}b\IeC {\v e}r prostoru}{30}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Zachycen\IeC {\'\i } obrazu selekce}{34}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Export vybran\IeC {\'y}ch bod\IeC {\r u} z selekce}{37}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}Pohyb selekc\IeC {\'\i }}{39}{subsection.4.8}
+\contentsline {section}{\numberline {5}Z\IeC {\'a}v\IeC {\v e}r}{41}{section.5}
+\contentsline {section}{Literatura}{42}{section.5}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  20 FEB 2020 22:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  20 MAR 2020 15:33
 entering extended mode
 **./Lidar-BC_projekt.tex
 (Lidar-BC_projekt.tex
@@ -2720,48 +2720,13 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Lidar-BC_projekt.bbl' found.
- (Lidar-BC_projekt.bbl
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'heremaps_2018':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'higgins_2018':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'hristozov_2019':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'miller_2019':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'oyom_oyom_2017':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'scratchapixel_2014':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'scratchapixel_20141':
-(biblatex)                - Invalid format of field 'month'.
-
-)
+ (Lidar-BC_projekt.bbl)
 Package biblatex Info: Reference section=0 on input line 154.
 Package biblatex Info: Reference segment=0 on input line 154.
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
- ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+
+("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -4121,7 +4086,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Figures/Zadani1.jpg, id=143, 597.432pt x 844.8363pt>
+<Figures/Zadani1.jpg, id=139, 597.432pt x 844.8363pt>
 File: Figures/Zadani1.jpg Graphic file (type jpg)
 <use Figures/Zadani1.jpg>
 Package pdftex.def Info: Figures/Zadani1.jpg  used on input line 156.
@@ -4164,7 +4129,7 @@ Package pdftex.def Info: Figures/Zadani1.jpg  used on input line 156.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Figures/Prohlaseni1.jpg, id=148, 597.432pt x 844.8363pt>
+<Figures/Prohlaseni1.jpg, id=144, 597.432pt x 844.8363pt>
 File: Figures/Prohlaseni1.jpg Graphic file (type jpg)
 <use Figures/Prohlaseni1.jpg>
 Package pdftex.def Info: Figures/Prohlaseni1.jpg  used on input line 156.
@@ -4209,7 +4174,7 @@ Package pdftex.def Info: Figures/Prohlaseni1.jpg  used on input line 156.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Figures/Prohlaseni2.jpg, id=153, 597.432pt x 844.8363pt>
+<Figures/Prohlaseni2.jpg, id=149, 597.432pt x 844.8363pt>
 File: Figures/Prohlaseni2.jpg Graphic file (type jpg)
 <use Figures/Prohlaseni2.jpg>
 Package pdftex.def Info: Figures/Prohlaseni2.jpg  used on input line 156.
@@ -4225,14 +4190,14 @@ Package pdftex.def Info: Figures/Prohlaseni2.jpg  used on input line 156.
 
 ] [6
 
-] (Lidar-BC_projekt.toc [7
-
-
-])
+] (Lidar-BC_projekt.toc)
 \tf@toc=\write7
 \openout7 = `Lidar-BC_projekt.toc'.
 
- [8] [9
+ [7
+
+
+] [8] [9
 
 
 ]
@@ -4264,7 +4229,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 
 ]
-<Figures/lidar_preview.png, id=297, 1434.10782pt x 664.73344pt>
+<Figures/lidar_preview.png, id=292, 1434.10782pt x 664.73344pt>
 File: Figures/lidar_preview.png Graphic file (type png)
 <use Figures/lidar_preview.png>
 Package pdftex.def Info: Figures/lidar_preview.png  used on input line 168.
@@ -4274,263 +4239,245 @@ Package pdftex.def Info: Figures/lidar_preview.png  used on input line 168.
  <./Figures/lidar_preview.png>] [14
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 208.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 203.
 
 
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 208.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 203.
 
 [15] [16]
-<Figures/packet.png, id=327, 901.11656pt x 517.18219pt>
+<Figures/packet.png, id=321, 901.11656pt x 517.18219pt>
 File: Figures/packet.png Graphic file (type png)
 <use Figures/packet.png>
-Package pdftex.def Info: Figures/packet.png  used on input line 261.
+Package pdftex.def Info: Figures/packet.png  used on input line 253.
 (pdftex.def)             Requested size: 455.24411pt x 261.28148pt.
  [17 <./Figures/packet.png>]
-<Figures/paket-dual.png, id=335, 789.70032pt x 527.72156pt>
+<Figures/paket-dual.png, id=329, 789.70032pt x 527.72156pt>
 File: Figures/paket-dual.png Graphic file (type png)
 <use Figures/paket-dual.png>
-Package pdftex.def Info: Figures/paket-dual.png  used on input line 272.
+Package pdftex.def Info: Figures/paket-dual.png  used on input line 263.
 (pdftex.def)             Requested size: 455.24411pt x 304.21863pt.
  [18 <./Figures/paket-dual.png>]
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.st
 y"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Package csquotes Info: Input encoding change on input line 282.
+Package csquotes Info: Input encoding change on input line 272.
  ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 )
 (SourceCodes/transformdata.py
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 1.
-) [19] [20] [21
+) [19] [20
 
 ]
-Overfull \hbox (0.29121pt too wide) in paragraph at lines 303--304
-\T1/lmr/m/n/10.95 K vy-tvo-∞enÌ ka∫-dÈho ob-jektu po-t∞e-bu-jeme mno-∫inu vr-ch
-ol∑, st•n a ma-te-ri-·l∑ ve WebGL. Three.js
- []
+Package csquotes Info: Input encoding change on input line 297.
 
-Package csquotes Info: Input encoding change on input line 305.
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 )
 (SourceCodes/threeJSSphere.js)
-<Figures/sphere1.png, id=378, 362.85562pt x 315.42844pt>
+<Figures/sphere1.png, id=368, 362.85562pt x 315.42844pt>
 File: Figures/sphere1.png Graphic file (type png)
 <use Figures/sphere1.png>
-Package pdftex.def Info: Figures/sphere1.png  used on input line 311.
+Package pdftex.def Info: Figures/sphere1.png  used on input line 303.
 (pdftex.def)             Requested size: 142.26378pt x 123.67116pt.
-<Figures/sphere2.png, id=379, 362.85562pt x 316.18124pt>
+<Figures/sphere2.png, id=369, 362.85562pt x 316.18124pt>
 File: Figures/sphere2.png Graphic file (type png)
 <use Figures/sphere2.png>
-Package pdftex.def Info: Figures/sphere2.png  used on input line 313.
+Package pdftex.def Info: Figures/sphere2.png  used on input line 305.
 (pdftex.def)             Requested size: 142.26378pt x 123.96632pt.
- [22] [23 <./Figures/sphere1.png> <./Figures/sphere2.png>]
-<Figures/perspectiveProjection.png, id=395, 501.875pt x 284.06125pt>
+ [21] [22 <./Figures/sphere1.png> <./Figures/sphere2.png>]
+<Figures/perspectiveProjection.png, id=385, 501.875pt x 284.06125pt>
 File: Figures/perspectiveProjection.png Graphic file (type png)
 <use Figures/perspectiveProjection.png>
 Package pdftex.def Info: Figures/perspectiveProjection.png  used on input line 
-333.
+323.
 (pdftex.def)             Requested size: 455.24411pt x 257.68124pt.
- [24 <./Figures/perspectiveProjection.png>] [25]
-<Figures/dataModel.png, id=413, 732.7375pt x 497.86pt>
+ [23 <./Figures/perspectiveProjection.png>] [24]
+<Figures/dataModel.png, id=402, 1308.89pt x 705.63625pt>
 File: Figures/dataModel.png Graphic file (type png)
 <use Figures/dataModel.png>
-Package pdftex.def Info: Figures/dataModel.png  used on input line 358.
-(pdftex.def)             Requested size: 455.24411pt x 309.32332pt.
- [26
+Package pdftex.def Info: Figures/dataModel.png  used on input line 348.
+(pdftex.def)             Requested size: 455.24411pt x 245.42592pt.
+ [25
 
 ]
-Package csquotes Info: Input encoding change on input line 368.
+Package csquotes Info: Input encoding change on input line 359.
 
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 )
 (SourceCodes/mainScene.js)
-Overfull \hbox (17.0pt too wide) in paragraph at lines 367--371
-[]$[]$
+Overfull \hbox (17.0pt too wide) in paragraph at lines 358--361
+[]$[]$ 
  []
 
-[27 <./Figures/dataModel.png (PNG copy)>] [28]
-Package csquotes Info: Input encoding change on input line 378.
+[26 <./Figures/dataModel.png>] [27]
+Package csquotes Info: Input encoding change on input line 370.
 
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 )
-(SourceCodes/loadDataFromServerAndRenderPoints.js) [29]
-Package csquotes Info: Input encoding change on input line 383.
+(SourceCodes/loadDataFromServerAndRenderPoints.js) [28]
+Package csquotes Info: Input encoding change on input line 375.
 
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 )
 (SourceCodes/renderPointsFromData.js)
-<Figures/sceneWithPoints.png, id=476, 1280.53406pt x 703.87968pt>
+<Figures/sceneWithPoints.png, id=467, 1280.53406pt x 703.87968pt>
 File: Figures/sceneWithPoints.png Graphic file (type png)
 <use Figures/sceneWithPoints.png>
-Package pdftex.def Info: Figures/sceneWithPoints.png  used on input line 388.
+Package pdftex.def Info: Figures/sceneWithPoints.png  used on input line 380.
 (pdftex.def)             Requested size: 455.24411pt x 250.23883pt.
- [30]
-Package csquotes Info: Input encoding change on input line 397.
+ [29]
+Package csquotes Info: Input encoding change on input line 389.
 
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 )
-(SourceCodes/mouseProjection.js) [31 <./Figures/sceneWithPoints.png>]
-Package csquotes Info: Input encoding change on input line 403.
+(SourceCodes/mouseProjection.js) [30 <./Figures/sceneWithPoints.png>]
+Package csquotes Info: Input encoding change on input line 395.
 
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 )
 (SourceCodes/scalingVector.js)
-Package csquotes Info: Input encoding change on input line 409.
+Package csquotes Info: Input encoding change on input line 401.
 
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 )
-(SourceCodes/secondPoint.js) [32]
-Package csquotes Info: Input encoding change on input line 415.
+(SourceCodes/secondPoint.js)
+Package csquotes Info: Input encoding change on input line 407.
 
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 )
 (SourceCodes/makeBorder.js)
-Overfull \hbox (17.0pt too wide) in paragraph at lines 414--417
+Overfull \hbox (17.0pt too wide) in paragraph at lines 406--409
 []$[]$ 
  []
 
-Package csquotes Info: Input encoding change on input line 420.
-("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
+[31]
+Package csquotes Info: Input encoding change on input line 412.
+ ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-)
-(SourceCodes/create3DLine.js) [33]
-<Figures/selectionBeforeProjection.png, id=560, 949.29657pt x 560.8453pt>
+) (SourceCodes/create3DLine.js)
+<Figures/selectionBeforeProjection.png, id=521, 949.29657pt x 560.8453pt>
 File: Figures/selectionBeforeProjection.png Graphic file (type png)
 <use Figures/selectionBeforeProjection.png>
 Package pdftex.def Info: Figures/selectionBeforeProjection.png  used on input l
-ine 426.
+ine 418.
 (pdftex.def)             Requested size: 455.24411pt x 268.95451pt.
-<Figures/selectionAfterProjection.png, id=561, 949.29657pt x 560.8453pt>
+ [32]
+<Figures/selectionAfterProjection.png, id=552, 949.29657pt x 560.8453pt>
 File: Figures/selectionAfterProjection.png Graphic file (type png)
 <use Figures/selectionAfterProjection.png>
 Package pdftex.def Info: Figures/selectionAfterProjection.png  used on input li
-ne 433.
+ne 425.
 (pdftex.def)             Requested size: 455.24411pt x 268.95451pt.
- [34 <./Figures/selectionBeforeProjection.png>] [35 <./Figures/selectionAfterPr
+ [33 <./Figures/selectionBeforeProjection.png>] [34 <./Figures/selectionAfterPr
 ojection.png>]
-<Figures/projectionMatrixCameraFrustum1.png, id=583, 963.6pt x 542.025pt>
+<Figures/projectionMatrixCameraFrustum1.png, id=574, 963.6pt x 542.025pt>
 File: Figures/projectionMatrixCameraFrustum1.png Graphic file (type png)
 <use Figures/projectionMatrixCameraFrustum1.png>
 Package pdftex.def Info: Figures/projectionMatrixCameraFrustum1.png  used on in
-put line 478.
+put line 469.
 (pdftex.def)             Requested size: 218.51521pt x 122.90974pt.
-<Figures/projectionMatrixCameraFrustum2.png, id=586, 963.6pt x 542.025pt>
+<Figures/projectionMatrixCameraFrustum2.png, id=577, 963.6pt x 542.025pt>
 File: Figures/projectionMatrixCameraFrustum2.png Graphic file (type png)
 <use Figures/projectionMatrixCameraFrustum2.png>
 Package pdftex.def Info: Figures/projectionMatrixCameraFrustum2.png  used on in
-put line 484.
+put line 475.
 (pdftex.def)             Requested size: 218.51521pt x 122.90974pt.
- [36]
-<Figures/finalProjectionImageFromCamera.png, id=593, 630.10406pt x 460.72125pt>
+ [35]
+<Figures/finalProjectionImageFromCamera.png, id=584, 630.10406pt x 460.72125pt>
 
 File: Figures/finalProjectionImageFromCamera.png Graphic file (type png)
 <use Figures/finalProjectionImageFromCamera.png>
 Package pdftex.def Info: Figures/finalProjectionImageFromCamera.png  used on in
-put line 493.
+put line 484.
 (pdftex.def)             Requested size: 273.14923pt x 199.72318pt.
-Package csquotes Info: Input encoding change on input line 500.
+Package csquotes Info: Input encoding change on input line 491.
 
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 )
-(SourceCodes/additionalCamera.js) [37 <./Figures/projectionMatrixCameraFrustum1
+(SourceCodes/additionalCamera.js) [36 <./Figures/projectionMatrixCameraFrustum1
 .png (PNG copy)> <./Figures/projectionMatrixCameraFrustum2.png (PNG copy)> <./F
 igures/finalProjectionImageFromCamera.png>]
-Package csquotes Info: Input encoding change on input line 504.
+Package csquotes Info: Input encoding change on input line 495.
 
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 )
 (SourceCodes/createImageFromCameras.js)
-Package csquotes Info: Input encoding change on input line 511.
+Package csquotes Info: Input encoding change on input line 502.
 
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 )
-(SourceCodes/rotateVectorAndReturnPosition.js) [38]
-Package csquotes Info: Input encoding change on input line 550.
+(SourceCodes/rotateVectorAndReturnPosition.js) [37]
+Package csquotes Info: Input encoding change on input line 541.
 
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 )
-(SourceCodes/CustomFrustum.js) [39]
-Package csquotes Info: Input encoding change on input line 561.
+(SourceCodes/CustomFrustum.js) [38]
+Package csquotes Info: Input encoding change on input line 552.
 
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 )
 (SourceCodes/onMouseClickDrag.js)
-Overfull \hbox (17.0pt too wide) in paragraph at lines 560--563
+Overfull \hbox (17.0pt too wide) in paragraph at lines 551--554
 []$[]$ 
  []
 
-Package csquotes Info: Input encoding change on input line 566.
+Package csquotes Info: Input encoding change on input line 557.
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 )
-(SourceCodes/onMouseMoveDrag.js [40])
-Package csquotes Info: Input encoding change on input line 570.
+(SourceCodes/onMouseMoveDrag.js [39])
+Package csquotes Info: Input encoding change on input line 561.
 
 ("C:\Users\MSI\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 )
-(SourceCodes/onMouseCancelDrag.js) [41] [42
+(SourceCodes/onMouseCancelDrag.js) [40] [41
 
 ]
-Overfull \hbox (22.14038pt too wide) in paragraph at lines 594--594
+Overfull \hbox (22.14038pt too wide) in paragraph at lines 585--585
 []$\T1/lmtt/m/n/10.95 https : / / velodynelidar . com / docs / notes / 63 -[] 9
 276 % 20Rev % 20A % 20VLP -[] 16 % 20Application %
  []
 
-[43
+[42
 
-]
-
-! Package inputenc Error: Unicode char ÃÅ (U+301)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.594 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[44]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 610.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 610.
+] [43]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 601.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 601.
  (Lidar-BC_projekt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 610.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 610.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 601.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 601.
 Package rerunfilecheck Info: File `Lidar-BC_projekt.out' has not changed.
-(rerunfilecheck)             Checksum: 910E36A755FBED93E71B631B2FB8C5B3;3339.
+(rerunfilecheck)             Checksum: AF979001B8335AA549FDB1593A125068;3285.
 Package logreq Info: Writing requests to 'Lidar-BC_projekt.run.xml'.
 \openout1 = `Lidar-BC_projekt.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 610.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 601.
  ) 
 Here is how much of TeX's memory you used:
- 47917 strings out of 493303
- 889453 string characters out of 3130654
- 1165459 words of memory out of 3000000
- 50367 multiletter control sequences out of 15000+200000
+ 47916 strings out of 493303
+ 889492 string characters out of 3130654
+ 1195687 words of memory out of 3000000
+ 50368 multiletter control sequences out of 15000+200000
  623818 words of font info for 86 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,10n,54p,10389b,4497s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4559,9 +4506,9 @@ nts/type1/public/lm/lmtk10.pfb><C:/Users/MSI/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/public/lm/lmtt10.pfb><C:/Users/MSI/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/lm/lmtt9.pfb><C:/Users/MSI/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Lidar-BC_projekt.pdf (44 pages, 8220153 bytes).
+Output written on Lidar-BC_projekt.pdf (43 pages, 8222901 bytes).
 PDF statistics:
- 930 PDF objects out of 1000 (max. 8388607)
- 328 named destinations out of 1000 (max. 500000)
- 369 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 921 PDF objects out of 1000 (max. 8388607)
+ 326 named destinations out of 1000 (max. 500000)
+ 361 words of extra memory for PDF output out of 10000 (max. 10000000)
 
